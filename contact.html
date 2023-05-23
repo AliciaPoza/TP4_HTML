@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/vnd.icon" href="favicon.jpg">
+</head>
+<body class="fond">
+
+<header>
+  <img class="banniere" src="banniere1.png" alt="Ondes">
+    <h1>Les oubliés</h1>
+    <nav class="menu">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="index.html#blog">Blog</a></li>
+          <li><a href="#">Gallerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+</header>
+
+<section>
+<form method="POST" action="pageobsolete.php">
+<fieldset>
+  <legend>Formulaire de contact:</legend>
+  <div>
+    <label for="nom">Nom:<em>*</em></label>
+    <input type="text" name="nom" placeholder="Nom" minlength="2" maxlength="20" id="nom" required/>
+  </div>
+  <div>
+    <label for="email">Adresse mail:<em>*</em></label>
+    <input type="email" name="email" placeholder="Entrez votre adresse mail" id="email"/>
+  </div>
+  <div>
+    <label for="commentaire">Laissez votre commentaire:</label>
+    <br>
+    <textarea id="commentaire" name="commentaire"rows="10" cols="70">Votre commentaire:</textarea>
+  </div>
+  <div>
+    <input type="checkbox" id="checkbox" checked/><label for="checkbox">Reçevoir une copie par mail!</label>
+  </div>
+  <div>
+    <input type="submit" value="Envoyer"/>
+    <input type="reset" value="Reset"/>
+  </div>
+</fieldset>
+</form>
+</section>
+
+<footer>
+  <ul>
+      <li><a href="#">Fictif</a></li>
+      <li><a href="#">Encore fictif</a></li>
+      <li><a href="#">Toujours fictif</a></li>
+  </ul>
+</footer>
+</body>
+</html>

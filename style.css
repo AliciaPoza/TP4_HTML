@@ -1,0 +1,19 @@
+.fond{
+    background-image: radial-gradient(circle at top, #CCDAE0, #EDF2F4);
+}
+header, body, footer{
+
+}
+.banniere{
+    width: 800px;
+    height: 200px;
+}
+.image1, .image2, .image3{
+    width: 200px;
+    height: 100px;
+}
+strong{
+    color: green;
+}
+
+border: black 2px solid;
