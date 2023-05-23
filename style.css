@@ -1,19 +1,50 @@
 .fond{
     background-image: radial-gradient(circle at top, #CCDAE0, #EDF2F4);
 }
-header, body, footer{
-
-}
 .banniere{
     width: 800px;
     height: 200px;
 }
+h1{
+    color: #EF233C;
+    font-size:xx-large;
+    font-family: impact;
+}
+ul{
+    list-style-type: none;
+}
+h3{
+    color: #2B2D42;
+    font-size: large;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+article{
+    border: black 1px solid;
+}
 .image1, .image2, .image3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #8D99AE 2px solid;
     width: 200px;
     height: 100px;
 }
 strong{
     color: green;
 }
-
-border: black 2px solid;
+a:link{
+    color: #D90429;
+}
+a:visited {
+    color: grey;
+}
+a:hover{
+    color: #2B2D42;
+}
+em{
+    color: red
+}
+footer{
+    text-align: right;
+}
